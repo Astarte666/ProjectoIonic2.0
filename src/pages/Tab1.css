@@ -1,0 +1,59 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .intro-section, .complete-section, .ending-section {
+    margin-top: 30px;
+  }
+  
+  input[type="text"] {
+    transition: width 0.4s ease-in-out, border-color 0.3s;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    padding: 10px;
+    width: 15%;
+    font-size: 16px;
+  }
+  
+  input[type="text"]:focus {
+    width: 30%;
+    border-color: #2980b9;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #2980b9;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
